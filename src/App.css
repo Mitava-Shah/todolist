@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.box{
+    border: 1px solid rgb(247, 61, 92);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 10cm;
+    background: pink;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+   
+}
+.text{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.add-btn{
+    background-color: rgb(253, 13, 205);
+    color:white;
+    padding: 5px;
+    width: 2cm;
+    border-radius: 5px;
+    border: none;
+    margin: 0px 10px;
+}
+.list-item{
+    list-style: none;
+    width: 3cm;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(247, 61, 92);
+    border-radius: 5px;
+    padding: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rm-btn{
+    margin-left: 20px;
+    padding: 5px;
+    background-color: rgb(253, 13, 205);
+    color:white;
+    border-radius: 5px;
+    border: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.edit-btn{
+    margin-left: 20px;
+    padding: 5px;
+    background-color: rgb(253, 13, 205);
+    color:white;
+    border-radius: 5px;
+    border: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.update-btn{
+    padding: 5px;
+    background-color: rgb(253, 13, 205);
+    color:white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
 }
